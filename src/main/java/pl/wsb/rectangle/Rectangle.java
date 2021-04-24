@@ -10,7 +10,11 @@ public class Rectangle{
     static {
         System.out.println("BLOK STATYCZNY");
     }
-    protected Rectangle(double sideA, double sideB){
+    private Rectangle(){
+        sideA = 1;
+        sideB = 1;
+    }
+    public Rectangle(double sideA, double sideB){
         this.sideB = sideB;
         this.sideA = sideA;
         this.unitPrice = DEFAULT_UNIT_PRICE;

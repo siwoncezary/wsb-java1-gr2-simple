@@ -8,6 +8,7 @@ public class Main4 {
     public static void main(String[] args) {
         Rectangle[] rectangles = new Rectangle[5];
         Rectangle rectangle = new BorderRectangle(10, 10, 10);
+
         rectangles[0] = rectangle;
         rectangles[1] = Rectangle.of(23.67, 456.6);
         rectangles[2] = Rectangle.of(34, 56);
